@@ -7,6 +7,7 @@
 	}
 	"plugins": [
 		"react",
-		"react-native"
+		"react-native",
+		"flowtype"
 	]
 }
