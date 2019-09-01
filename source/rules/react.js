@@ -29,10 +29,16 @@ module.exports.rules = {
 	'react/no-will-update-set-state': [
 		'error',
 		'disallow-in-func'
-	]
+	],
 
 	'react/prefer-es6-class': [
 		'error',
 		'always'
-	]
+	],
+
+	'react/prefer-read-only-props': 'error',
+
+	'react/prop-types': 'off',
+
+		
 }
