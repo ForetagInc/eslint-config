@@ -6,4 +6,6 @@ module.exports.rules = {
 		}
 	],
 
+	'react/no-typos': 'error',
+	
 }
