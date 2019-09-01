@@ -9,5 +9,10 @@
 		"react",
 		"react-native",
 		"flowtype"
-	]
+	],
+	'settings': {
+		'flowtype': {
+			'onlyFilesWithFlowAnnotation': false
+		}
+	}
 }
