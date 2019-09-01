@@ -1,15 +1,21 @@
 module.exports.rules = {
 
 	'flowtype/boolean-style': [
-		2,
+		'error',
 		'boolean'
 	],
 
 	'flowtype/define-flow-type': 'warn',
 
-	'flowtype/delimiter-dangle': 'always-multiline',
+	'flowtype/delimiter-dangle': [
+		'error', 
+		'always-multiline'
+	],
 
-	'flowtype/generic-spacing': 'never',
+	'flowtype/generic-spacing': [
+		'error', 
+		'never'
+	],
 
 	'flowtype/no-mixed': 'off',
 
@@ -18,9 +24,10 @@ module.exports.rules = {
 	'flowtype/no-types-missing-file-annotation': 'error',
 
 	'flowtype/no-weak-types': [
-		'off', 
-		{
-			'any': false
+		'error', {
+			'any': false,
+			'Object': true, 
+			'Function': true
 		}
 	],
 
@@ -30,8 +37,7 @@ module.exports.rules = {
 	],
 
 	'flowtype/require-parameter-type': [
-		'error',
-		{
+		'error', {
 			'excludeArrowFunctions': 'expressionsOnly'
 		}
 	],
@@ -40,8 +46,7 @@ module.exports.rules = {
 
 	'flowtype/require-return-type': [
 		'error',
-		'always',
-		{
+		'always', {
 			'excludeArrowFunctions': 'expressionsOnly'
 		}
 	],
