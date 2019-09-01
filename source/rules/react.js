@@ -104,5 +104,18 @@ module.exports.rules = {
 
 	'react/sort-prop-types': 'off',
 
-	
+	'react/state-in-constructor': [
+		'error',
+		'never'
+	],
+
+	/**
+		@TODO
+		https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/static-property-placement.md
+	*/
+	'react/static-property-placement': 'off',
+
+	'react/style-prop-object': 'error',
+
+	'react/void-dom-elements-no-children': 'error'
 }
