@@ -1,5 +1,22 @@
 module.exports.rules = {
 
+	'react/boolean-prop-naming': 'off',
+
+	'react/button-has-type': 'error',
+
+	'react/default-props-match-prop-types': 'off',
+
+	'react/destructuring-assignment': [
+		'error',
+		'always',
+	],
+
+	'react/forbid-component-props': 'off',
+
+	'react/forbid-dom-props': 'off',
+
+	'react/forbid-elements': 'off',
+
 	'react/display-name': [
 		'warn', {
 			'ignoreTranspilerName': true
