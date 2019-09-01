@@ -17,6 +17,16 @@ module.exports.rules = {
 
 	'react/forbid-elements': 'off',
 
+	'react/forbid-prop-types': 'off',
+
+	'react/forbid-foreign-prop-types': 'error',
+
+	'react/no-access-state-in-setstate': 'error',
+
+	'react/no-array-index-key': 'error',
+
+	'react/no-children-prop': 'error',
+
 	'react/display-name': [
 		'warn', {
 			'ignoreTranspilerName': true
