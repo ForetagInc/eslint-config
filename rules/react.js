@@ -12,6 +12,8 @@ module.exports.rules = {
 		'error', {
 			'noTemplateLiterals': true
 		}
-	]
-	
+	],
+
+	'react/no-this-in-sfc': 'error'
+
 }
