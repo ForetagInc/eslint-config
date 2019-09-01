@@ -20,6 +20,19 @@ module.exports.rules = {
 
 	'react/no-unknown-property': 'warn',
 
-	'react/no-unsafe': 'error'
+	'react/no-unsafe': 'error',
 
+	'react/no-unused-prop-types': 'warn',
+
+	'react/no-unused-state': 'warn',
+
+	'react/no-will-update-set-state': [
+		'error',
+		'disallow-in-func'
+	]
+
+	'react/prefer-es6-class': [
+		'error',
+		'always'
+	]
 }
