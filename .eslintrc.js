@@ -8,7 +8,8 @@
 			"jsx": true
 		}
 	}
-	"plugins": [
+	"plugins": {
+		"babel",
 		"react",
 		"react-native",
 		"flowtype"
