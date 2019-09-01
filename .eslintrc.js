@@ -3,7 +3,10 @@
 	"parserOptions":  {
 		"sourceType": "module",
 		"allowImportExportEverywhere": false,
-		"codeFrame": true
+		"codeFrame": true,
+		"ecmaFeatures": {
+			"jsx": true
+		}
 	}
 	"plugins": [
 		"react",
