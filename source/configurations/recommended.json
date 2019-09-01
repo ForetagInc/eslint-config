@@ -1,16 +1,21 @@
 {
 	"parser": "babel-eslint",
+
 	"parserOptions":  {
 		"sourceType": "module",
 		"allowImportExportEverywhere": false,
-		"codeFrame": true
+		"babelOptions": {
+			"configFile": "../babel.config.js"
+		}
 	},
+
 	"plugins": [
 		"babel",
 		"react",
 		"react-native",
 		"flowtype"
 	],
+	
 	"settings": {
 		"flowtype": {
 			"onlyFilesWithFlowAnnotation": false
