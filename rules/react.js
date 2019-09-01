@@ -18,6 +18,8 @@ module.exports.rules = {
 
 	'react/no-unescaped-entities': 'error',
 
-	'react/no-unknown-property': 'warn'
+	'react/no-unknown-property': 'warn',
+
+	'react/no-unsafe': 'error'
 
 }
