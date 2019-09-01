@@ -6,6 +6,9 @@
 		"allowImportExportEverywhere": false,
 		"babelOptions": {
 			"configFile": "../babel.config.js"
+		},
+		"ecmaFeatures": {
+			"jsx": true
 		}
 	},
 
