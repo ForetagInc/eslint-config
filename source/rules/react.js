@@ -61,6 +61,7 @@ module.exports.rules = {
 		}
 	],
 
+	// https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/sort-comp.md
 	'react/sort-comp': [
 		'warn', {
 			order: [
@@ -99,5 +100,9 @@ module.exports.rules = {
 				]
 			}
 		}
-	]
+	],
+
+	'react/sort-prop-types': 'off',
+
+	
 }
