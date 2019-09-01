@@ -14,6 +14,8 @@ module.exports.rules = {
 		}
 	],
 
-	'react/no-this-in-sfc': 'error'
+	'react/no-this-in-sfc': 'error',
+
+	'react/no-unescaped-entities': 'error'
 
 }
