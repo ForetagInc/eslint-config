@@ -1,10 +1,10 @@
 module.exports = {
 	rules: {
 		'accessor-pairs': [
-			'error', 
-			{
-				'setWithoutget': true,
-				'getWithoutSet': false
+			'error', {
+				'getWithoutSet': false,
+				'setWithoutGet': true,
+				'enforceForClassMembers': true
 			}
 		],
 		'array-callback-return': 'warn',

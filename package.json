@@ -1,6 +1,6 @@
 {
 	"name": "@foretag/eslint-config",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "Official ESLint configuration for Foretag internal and public projects.",
 	"main": "index.js",
 	"repository": {
