@@ -6,7 +6,7 @@ const rulesReact = require('./rules/react');
 const rulesReactNative = require('./rules/react-native');
 const rulesVariables = require('./rules/variables');
 
-export const rules = {
+module.exports.rules = {
 	...rulesErrors,
 	...rulesPractices,
 	...rulesGraphQL,
