@@ -13,7 +13,7 @@ module.exports = {
 
 		'react-native/no-color-literals': 'error',
 
-		'react-native/no-raw-text': 'error',
+		'react-native/no-raw-text': 'off',
 
 		'react-native/no-single-element-style-arrays': 'error'
 	}

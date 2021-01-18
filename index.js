@@ -17,12 +17,15 @@ module.exports = {
 	},
 	extends: [
 		'eslint:recommended',
+		'plugin:react/recommended',
 		'plugin:cypress/recommended',
 		'plugin:jest/recommended',
 		...rules
 	],
 	plugins: [
 		'@graphql-eslint',
+		'react',
+		'react-native',
 		'cypress',
 		'jest'
 	],
@@ -49,9 +52,6 @@ module.exports = {
 			parser: '@typescript-eslint/parser',
 			plugins: [
 				'@typescript-eslint',
-				'plugin:react/recommended',
-				'react',
-				'react-native'
 			],
 			rules: {
 				'no-use-before-define': 'off',
