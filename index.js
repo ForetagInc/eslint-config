@@ -10,10 +10,15 @@ const rules = [
 
 module.exports = {
 	parser: '@typescript-eslint/parser',
+	parserOptions: {
+		emcaVersion: 12,
+		emcaFeatures: {
+			jsx: true
+		}
+	},
 	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
-		'plugin:@typescript-eslint/recommended-requiring-type-checking',
 		'plugin:react/recommended',
 		'plugin:cypress/recommended',
 		'plugin:jest/recommended',
@@ -26,22 +31,18 @@ module.exports = {
 		'cypress',
 		'jest'
 	],
-	parserOptions: {
-		emcaVersion: 12,
-		emcaFeatures: {
-			jsx: true
-		}
-	},
 	env: {
 		browser: true,
 		node: true,
 		jest: true,
-		es2021: true,
 		worker: true,
 		"shared-node-browser": true,
 		"react-native/react-native": true
 	},
+	settings: {
+		react: {
+			version: 'detect'
+		}
+	},
 	rules: {}
 }
-
-console.log(module.exports)

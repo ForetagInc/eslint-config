@@ -1,12 +1,6 @@
 module.exports = {
 	rules: {
-		'accessor-pairs': [
-			'error', {
-				'getWithoutSet': false,
-				'setWithoutGet': true,
-				'enforceForClassMembers': true
-			}
-		],
+		'accessor-pairs': 'error',
 		'array-callback-return': 'warn',
 		'block-scoped-var': 'error',
 		'class-methods-use-this': 'error',
@@ -55,14 +49,7 @@ module.exports = {
 		'no-floating-decimal': 'error',
 		'no-global-assign': 'error',
 		'no-implicit-coercion': 'error',
-		'no-implicit-globals': [
-			'error', 
-			{ 
-				'parserOptions': { 
-					'sourceType': 'module' 
-				}
-			}
-		],
+		'no-implicit-globals': ['error'],
 		'no-implied-eval': 'error',
 		'no-invalid-this': 'error',
 		'no-iterator': 'error',

@@ -1,12 +1,6 @@
 module.exports = {
 	rules: {
-		'init-declarations': [
-			'error',
-			'always',
-			{
-				'ignoreForLoopInit': true
-			}
-		],
+		'init-declarations': [0, 'always'],
 		'no-delete-var': 'error',
 		'no-label-var': 'error',
 		'no-shadow': 'error',
