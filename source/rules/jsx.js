@@ -1,4 +1,4 @@
-module.exports.rules = {
+module.exports = {
 
 	'react/jsx-boolean-value': [
 		'error',
@@ -8,7 +8,7 @@ module.exports.rules = {
 	'react/jsx-child-element-spacing': 'warn',
 
 	'react/jsx-closing-bracket-location': [
-		'warn'
+		'warn',
 		'line-aligned',
 	],
 

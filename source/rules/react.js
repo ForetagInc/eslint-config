@@ -1,4 +1,4 @@
-module.exports.rules = {
+module.exports = {
 
 	'react/boolean-prop-naming': 'off',
 

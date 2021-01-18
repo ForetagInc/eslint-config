@@ -1,4 +1,4 @@
-module.exports.rules = {
+module.exports = {
 	
 	'react-native/no-unused-styles': 'warn',
 
@@ -13,5 +13,7 @@ module.exports.rules = {
 
 	'react-native/no-color-literals': 'error',
 
-	'react-native/no-raw-text': 'error'
+	'react-native/no-raw-text': 'error',
+
+	'react-native/no-single-element-style-arrays': 'error'
 }
