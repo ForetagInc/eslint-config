@@ -32,5 +32,5 @@ module.exports = {
 		"shared-node-browser": true,
 		"react-native/react-native": true
 	},
-	rules
+	rules: rules
 };
