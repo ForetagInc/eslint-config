@@ -34,7 +34,7 @@ module.exports = {
 
 		'react/jsx-equals-spacing': ['error', 'never'],
 		'react/jsx-filename-extension': ['warn', { extensions: [ '.jsx', '.tsx' ] }],
-		'react/jsx-first-prop-new-line': ['error', 'never'],
+		'react/jsx-first-prop-new-line': ['error', 'multiline'],
 		'react/jsx-fragments': ['warn', 'syntax'],
 		'react/jsx-handler-names': ['off'],
 		'react/jsx-indent':  ['warn', 'tab', {
