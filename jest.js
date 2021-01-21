@@ -9,5 +9,10 @@ module.exports = {
 	env: {
 		jest: true,
 		"jest/globals": true
+	},
+	settings: {
+		jest: {
+			version: 'detect'
+		}
 	}
 }
