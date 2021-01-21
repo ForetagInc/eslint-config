@@ -34,7 +34,7 @@ module.exports = {
 
 		'react/jsx-equals-spacing': ['error', 'never'],
 		'react/jsx-filename-extension': ['warn', { extensions: [ '.jsx', '.tsx' ] }],
-		'react/jsx-first-prop-new-line': 'never',
+		'react/jsx-first-prop-new-line': ['error', 'never'],
 		'react/jsx-fragments': ['warn', 'syntax'],
 		'react/jsx-handler-names': ['off'],
 		'react/jsx-indent':  ['warn', 'tab', {
@@ -59,7 +59,6 @@ module.exports = {
 		'react/jsx-props-no-spreading': ['off'],
 		'react/jsx-sort-default-props': ['off'],
 		'react/jsx-sort-props': ['off'],
-		'react/jsx-space-before-closing': ['error', 'always'],
 		'react/jsx-tag-spacing': ['error', {
 			closingSlash: 'never',
 			beforeSelfClosing: 'always',
