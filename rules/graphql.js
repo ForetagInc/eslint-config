@@ -16,6 +16,5 @@ module.exports = {
 		'@graphql-eslint/avoid-duplicate-fields': ['error'],
 		'@graphql-eslint/naming-convention': ['off'],
 		'@graphql-eslint/input-name': ['warn', [{ checkInputType: true }]],
-		
 	}
 };

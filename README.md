@@ -21,7 +21,7 @@ The official eslint configuration for Foretag internal and public projects.
 ```
 
 ### With suppported tooling
-```json
+```js
 {
 	"extends": [
 		// React
