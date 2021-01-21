@@ -10,17 +10,12 @@ module.exports = {
 	},
 	extends: [
 		'eslint:recommended',
-		'plugin:jest/recommended',
 		...rules
-	],
-	plugins: [
-		'jest'
 	],
 	env: {
 		browser: true,
 		es6: true,
 		node: true,
-		jest: true,
 		worker: true,
 		"shared-node-browser": true,
 	},
