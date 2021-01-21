@@ -1,46 +1,28 @@
 const rules = [
 	'./rules/errors',
-	'./rules/graphql',
-	'./rules/jsx',
 	'./rules/practices',
-	'./rules/react',
-	'./rules/react-native',
 	'./rules/variables'
 ].map(require.resolve)
 
 module.exports = {
 	parserOptions: {
-		emcaVersion: 12,
-		emcaFeatures: {
-			jsx: true
-		}
+		emcaVersion: 2017
 	},
 	extends: [
 		'eslint:recommended',
-		'plugin:react/recommended',
-		'plugin:cypress/recommended',
 		'plugin:jest/recommended',
 		...rules
 	],
 	plugins: [
-		'@graphql-eslint',
-		'react',
-		'react-native',
-		'cypress',
 		'jest'
 	],
 	env: {
 		browser: true,
+		es6: true,
 		node: true,
 		jest: true,
 		worker: true,
 		"shared-node-browser": true,
-		"react-native/react-native": true
-	},
-	settings: {
-		react: {
-			version: 'detect'
-		}
 	},
 	rules: {},
 	overrides: [
